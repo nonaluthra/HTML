@@ -1,0 +1,82 @@
+<!--Forms-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>This is html forms page</h2>
+    <form action="backend.php"></form>
+    <label for="name">Name</label>
+    <div>
+        <input type="text" name="Myname" id="name">
+    </div>
+    <br>
+    <label for="Role">Role</label>
+    <div>
+        <input type="text" Role="MyRole" id="Role">
+    </div>
+    <br>
+
+    <div>
+        Email : <input type="email" Email="Myemail">
+    </div>
+    <br>
+
+    <div>
+        Date : <input type="date" date="Mydate">
+    </div>
+    <br>
+
+    <div>
+        Time : <input type="time" time="Mytime">
+    </div>
+    <br>
+
+    <div>
+        Roll_No : <input type="number" Number="myNumber">
+    </div>
+    <br>
+    
+    <div>
+        Gender : Male<input type="radio" gender="Mygender"> FeMale<input type="radio" gender="Mygender">
+    </div>
+    <br>
+
+    <div>
+        Are you eligible? : <input type="checkbox" name="Myeligibility">
+    </div>
+    <br>
+
+    <div>
+        Write about yourself :<br> <textarea name="Mytext" rows="10" cols="20">
+   </div>
+   <br>
+
+   <div>
+    <label for="car">Car</label>
+    <select name="Mycar" id="car">
+    <option value ="range rover">Range Rover</option>
+    <option value ="Farrari">farrari</option>
+   </select>
+</div>
+<br>
+
+   <div>
+    Write about yourself :<br> <textarea name="Mytext" rows="10" cols="20">
+</div>
+<br>
+
+<div>
+<input type="reset" value="Reset"> <input type="submit" value="Submit now">
+</div>
+<br>
+
+</body>
+
+</html>
