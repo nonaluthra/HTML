@@ -1,0 +1,21 @@
+<!--Img and anchor tags-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links and images</title>
+</head>
+<body>
+    <a href="https://google.com" target="_blank">Go to google</a><br>
+    <a href="https://facebook.com"target="_blank">Go to facebook</a><br>
+    <a href="https://linkedin.com"target="_blank">Go to linkedin</a><br>
+    <a href="https://twitter.com"target="__blank">Go to twitter</a><br>
+    <a href ="/3.html" target="_blank">Go to 3.html</a><br>
+    <a href ="/2.html" target="_blank">Go to 2.html</a><br>
+    <a href ="/1.html" target="_blank">Go to 1.html</a><br>
+
+    <img src ="https://unsplash.com/developers" alt="error loading image">  <!--image is not present hence alt text is shown-->
+</body>
+</html>
