@@ -1,0 +1,22 @@
+<!--Ids and classes in html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ids and classes in html</title>
+</head>
+<body>
+<h3>Ids and classes in html </h3>   
+<div id="mainbox" class="redbg"> </div>
+<span class = "redBg"></span>
+<span class="redBg"></span>      <!-- . is used for classes and # is used for id-->
+<span id="mainbox"></span>       <!--emmet takes div tag as dafault-->
+<!--Creating multiple elements using Emmet-->
+<span class="class1 class2 class3">first</span>
+<span class="class1 class2 class3">Second</span>
+<span class="class1 class2 class3">Third</span>
+<span class="class1 class2 class3">fourth</span>
+</body>
+</html>
