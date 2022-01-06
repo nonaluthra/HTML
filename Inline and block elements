@@ -1,0 +1,30 @@
+<!--Inline and block elements-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inline and block elements</title>
+    </head>
+    <body>
+    <p style= "border:2px solid red;">This is a paragraph</p>         <!--Paragraph is a block element because it cover all the space i.e why output will be shown in nxt line of second paragraph-->
+    <p style= "border:2px solid blueviolet;">This is also a paragraph</p>
+    <span>This is a paragraph</span> <span>This is also a paragraph</span>
+    <!--span is an inline element so that both result will displayed in same line-->
+
+    <ul>
+        <li> "first line"</li>      <!--li is a block element-->
+        <li> "second line"</li>
+        <li> "third line"</li>
+    </ul>
+    <em>"first phase"</em>          <!--em is an inline element-->
+    <em>"second phase"</em>
+    <em>"third phase"</em>
+
+    <div>"First cycle"</div>        <!--div is a block element-->
+    <div>"second cycle"</div>
+    <div>"third cycle"</div>
+
+    <a>" First half"</a>
+    <a>" second half"</a>           <!--a is an inline element-->
+    <a>" third half"</a>
+    </body>
+</html>
