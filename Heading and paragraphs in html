@@ -1,0 +1,22 @@
+<!--Title,links,scripts and metatags-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heading paragraphs and emmets</title>
+</head>
+<body>
+<h1>amisha</h1>
+<h2>amisha</h2>
+<h3>amisha</h3>
+<h4>amisha</h4>
+<h5>amisha</h5>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius odio placeat neque animi consectetur, fuga modi inventore esse nihil nulla rerum vel maiores doloribus exercitationem itaque omnis commodi quam nostrum. Voluptatibus natus eius ipsa quam molestias adipisci, harum impedit provident.</p>
+<p>first</p>
+<p>second</p>
+<p>third</p>
+<p>fourth</p>
+</body>
+</html>
