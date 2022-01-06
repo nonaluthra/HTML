@@ -1,0 +1,64 @@
+<!-Tabes and lists
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> lists and tables</title>
+</head>
+<body>
+ <ul type="square">
+     <li>This is first item of your unordered list</li>
+     <li>This is second item of your unordered list</li>
+     <ul>
+         <li>Another one</li>
+         <li>Another two</li>
+         <li>Another three</li>
+         
+     </ul>
+     <li>This is third item of your unordered list</li>
+ </ul> 
+ <ol type ="I"> 
+    <li>This is first item of your unordered list</li>
+    <li>This is second item of your unordered list</li>
+    <li>This is third item of your unordered list</li>
+
+    <!--Tables-->
+    <h3> HTML table</h3>
+    <table>
+        <thead>
+<tr>                    <!--<tr>=table row-->
+    <th> Name</th>      <!--<th>=table heading-->
+    <th> class</th>
+    <th> roll_no</th>
+</tr>
+
+        </thead>        <!--table head-->
+        <tbody>         <!--table body-->
+    <tr>
+        <td> Amisha</td>           <!--<td> stands for table data-->
+        <td> B.tech</td>
+        <td>11202538 </td>
+
+    </tr>
+    <tr>
+        <td> lavisha</td>
+        <td> phd</td>
+        <td>1120897 </td>
+
+    </tr>
+
+    <tr>
+        <td> Chakshit</td>
+        <td> 11th</td>
+        <td>1123658 </td>
+
+    </tr>
+
+
+        </tbody>
+    </table>
+ </ol>
+</body>
+</html>
