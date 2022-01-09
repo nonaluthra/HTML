@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GYM WEBSITE</title>
+</head>
+<style>
+body{
+    background:url('ai.png') aquamarine no-repeat fixed right;
+    margin:0;
+    padding:0;
+}
+.container{
+    text-align:center;
+    display:inline;
+}
+.navbar{
+    border-radius:4px;
+    background-color: black;
+}
+.navbar ul{
+    overflow:auto;
+}
+.navbar li a{
+color:hotpink;
+text-decoration: simple;
+padding:5px 3px;
+}
+.navbar li{
+    float:left;
+    list-style:none;
+    margin:13px 20px;
+}
+#deck{
+    
+    color:blue;
+}
+.cert{
+    display:inline-block;
+    position:absolute;
+    top:300px;
+    left:500px;
+    color:purple;
+}
+#First{
+    color:blueviolet;
+}
+.time{
+    position:absolute;
+    top:150px;
+    left:300px;
+}
+#urs{
+    text-align:left;
+
+}
+.input{
+    display:block;
+    
+}
+#Second{
+    position:absolute;
+    top:600px;
+}
+   
+
+</style>
+<body>
+<div class ="container">
+    <h1>Amisha's Fitness Classes</h1>
+</div>
+<nav class="navbar">
+    <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Details">Details</a></li>
+        <li><a href="#Contact us">Contact us</a></li>
+        <li style="float:right"><a href="#About">About</a></li>
+    </ul>   
+    </nav>
+   <h2 id="urs">Register yourself</h2>
+   <form action="backend.php"></form>
+   <div class="input">
+   <div >
+    Name: <input type="text" name="myName" id="name">
+   </div>
+   <br>
+   <div>
+    Email:<input type="text" email="myEmail" id="email">
+   </div>
+   <br>
+   <div>
+    Phone_No.:<input type="number" value="Phone_No." id="phone_number">
+   </div>
+   <br>
+   <div>
+    Age:<input type="number" value="age" id="age">
+   </div>
+   <br>
+   <div>
+   Gender:Male<input type="radio" gender="myGender"> Female<input type="radio" gender="myGender"> Other<input type="radio" gender="myGender">
+   </div>
+   <br>
+   <div>
+    Any disease?<input type="checkbox" eligibility="myEligibility" 
+   </div>
+   <br>
+</div>
+    <div class="cert">
+        <h1 id="First">FEATURES:-</h1>
+        <h2>1.Completely certified</h2>
+        <h2>2.Globally enabled</h2>
+        <h2>3.Fully Comfortable</h2>
+        <h2>4.Cyclic Studio</h2>
+        <h2>5.Member's longue</h2>
+    </div>
+    <div class="time">
+        <h1>Opening time:-10:00am</h1>
+        <h1>Closing time:-9:00pm</h1>
+    </div>
+    <h2 id="Second">Address:Near Bus Stand,Bilaspur,Haryana</h2>
+</body>
+</html>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
